@@ -1,13 +1,14 @@
 package com.example.employee;
 
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class EmployeeApplicationTest {
 
     @Test
-    void testHello() {
+    void testHelloMethod() {
         EmployeeApplication app = new EmployeeApplication();
-        assertEquals("hello", app.hello());
+        String result = app.hello();
+        assertEquals("hello", result);
     }
 }
