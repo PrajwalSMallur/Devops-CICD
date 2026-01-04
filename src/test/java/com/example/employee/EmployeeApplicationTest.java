@@ -3,11 +3,14 @@ package com.example.employee;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 @SpringBootTest
 class EmployeeApplicationTest {
 
     @Test
     void contextLoads() {
-        // If application starts, test passes
+        EmployeeApplication app = new EmployeeApplication();
+        assertEquals("hello", app.hello());
     }
 }
