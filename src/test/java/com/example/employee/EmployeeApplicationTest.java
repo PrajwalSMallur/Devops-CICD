@@ -1,13 +1,13 @@
 package com.example.employee;
 
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
+import org.springframework.boot.test.context.SpringBootTest;
 
-class EmployeeControllerTest {
+@SpringBootTest
+class EmployeeApplicationTest {
 
     @Test
     void contextLoads() {
-        EmployeeController controller = new EmployeeController();
-        assertNotNull(controller);
+        // Application starts successfully
     }
 }
