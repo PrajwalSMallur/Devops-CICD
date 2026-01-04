@@ -1,5 +1,5 @@
 # Devops-CICD
-# DevOps CI/CD Project (From Scratch)
+# DevOps CI/CD Project 
 
 ## Project Overview
 This project demonstrates an end-to-end CI/CD pipeline built from scratch using GitHub Actions.
