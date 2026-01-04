@@ -1,10 +1,13 @@
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+package com.example.employee;
 
-class EmployeeApplicationTest {
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+
+class EmployeeControllerTest {
 
     @Test
-    void simpleTest() {
-        assertTrue(true);
+    void contextLoads() {
+        EmployeeController controller = new EmployeeController();
+        assertNotNull(controller);
     }
 }
