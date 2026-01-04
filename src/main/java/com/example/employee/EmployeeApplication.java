@@ -1,13 +1,11 @@
 package com.example.employee;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootTest
-class EmployeeApplicationTest {
-
-    @Test
-    void contextLoads() {
-        // application context loads successfully
+@SpringBootApplication
+public class EmployeeApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(EmployeeApplication.class, args);
     }
 }
