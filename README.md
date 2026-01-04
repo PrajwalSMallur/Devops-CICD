@@ -43,3 +43,4 @@ for rollback or redeployment when required.
 ## Conclusion
 This project follows real-world DevOps practices including CI, CD,
 quality gates, and automation.
+SonarCloud re-run
