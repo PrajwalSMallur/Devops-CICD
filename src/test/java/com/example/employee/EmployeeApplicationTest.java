@@ -8,7 +8,6 @@ class EmployeeApplicationTest {
     @Test
     void testHelloMethod() {
         EmployeeApplication app = new EmployeeApplication();
-        String result = app.hello();
-        assertEquals("hello", result);
+        assertEquals("hello", app.hello());
     }
 }
