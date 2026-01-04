@@ -8,6 +8,6 @@ class EmployeeApplicationTest {
 
     @Test
     void contextLoads() {
-        // This test only checks if app starts
+        // If application starts, test passes
     }
 }
